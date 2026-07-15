@@ -282,6 +282,7 @@ jobs:
           ./gradlew --no-daemon --stacktrace \
             "-PappVersionCode=${APP_VERSION_CODE}" \
             "-PappVersionName=${APP_VERSION_NAME}" \
+            :media3-lib-ui-danmaku:testDebugUnitTest \
             :app:testLeanbackArmeabi_v7aDebugUnitTest \
             :app:testLeanbackArm64_v8aDebugUnitTest \
             :app:testMobileArmeabi_v7aDebugUnitTest \
